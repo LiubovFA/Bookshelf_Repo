@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b31aebda-c8c4-4ae2-a3aa-bcf278fa3200" name="Apache XAMPP" url="http://localhost/Bookshelf_project\Bookshelf_Repo">
+        <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
