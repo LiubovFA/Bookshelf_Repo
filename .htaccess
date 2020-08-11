@@ -1,9 +1,10 @@
 AddDefaultCharset utf-8
 
 DirectoryIndex index.php
+#включение модуля перезаписи URL
 RewriteEngine On
 
-#проверка - если это не файл и не директория, то перенаправление на index.php
+#проверка на истинность URL (выполнение рул) - если это не файл и не директория, то перенаправление на index.php
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

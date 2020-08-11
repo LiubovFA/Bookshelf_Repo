@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6dc42d4-2d63-4f5f-ad32-b8127afe1711" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Bookshelf_project\Bookshelf_Repo\components" />
       <recent name="C:\Users\daugh\PhpstormProjects\Bookshelf_Repo\cofig" />
     </key>
   </component>
@@ -103,10 +108,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="7" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1597168872075" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597153054090">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597172314414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597153054090" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597172314414" />
     <state x="462" y="69" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1597167972116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -115,6 +120,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597171502956" />
+    <state width="1323" height="96" key="GridCell.Tab.0.bottom" timestamp="1597178096193">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="96" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597178096193" />
+    <state width="1323" height="96" key="GridCell.Tab.0.center" timestamp="1597178096192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="96" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597178096192" />
+    <state width="1323" height="96" key="GridCell.Tab.0.left" timestamp="1597178096192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="96" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597178096192" />
+    <state width="1323" height="96" key="GridCell.Tab.0.right" timestamp="1597178096193">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="96" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597178096193" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1597171943782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
