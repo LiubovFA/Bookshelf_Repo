@@ -2,7 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="b31aebda-c8c4-4ae2-a3aa-bcf278fa3200" name="Apache XAMPP" url="http://localhost/Bookshelf_project\Bookshelf_Repo">
+      <webServer id="b31aebda-c8c4-4ae2-a3aa-bcf278fa3200" name="Apache XAMPP" url="http://localhost/Bookshelf_project/Bookshelf_Repo">
+        <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="224b19f5-0243-4255-88a3-ec54361c0bdb" name="Apache" url="http://localhost/Bookshelf_project/Bookshelf_Repo">
         <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
       </webServer>
     </option>

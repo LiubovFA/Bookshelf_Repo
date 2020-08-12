@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6dc42d4-2d63-4f5f-ad32-b8127afe1711" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+    <list default="true" id="a6dc42d4-2d63-4f5f-ad32-b8127afe1711" name="Default Changelist" comment="* обозначение маршрутов&#10;* обработка URI&#10;* получение имени контроллера и метода (начато)">
+      <change afterPath="$PROJECT_DIR$/mvc/controllers/BookController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controllers/HomeController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +64,23 @@
       <recent name="C:\Users\daugh\PhpstormProjects\Bookshelf_Repo\cofig" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.Bookshelf_Repo">
+    <configuration name="Bookshelf_Repo" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Router.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/components/Router.php">
+      <method v="2" />
+    </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.Bookshelf_Repo" />
+        <item itemvalue="PHP Script.Router.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -82,6 +95,14 @@
       <updated>1597152712227</updated>
       <workItem from="1597152713295" duration="13182000" />
     </task>
+    <task id="LOCAL-00001" summary="* обозначение маршрутов&#10;* обработка URI&#10;* получение имени контроллера и метода (начато)">
+      <created>1597179278396</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597179278396</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +119,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="* обозначение маршрутов&#10;* обработка URI&#10;* получение имени контроллера и метода (начато)" />
+    <option name="LAST_COMMIT_MESSAGE" value="* обозначение маршрутов&#10;* обработка URI&#10;* получение имени контроллера и метода (начато)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="19" key="#CLI_Interpreters" timestamp="1597169998672">
@@ -116,37 +141,61 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1597167972116" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597171502956">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597222737599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597171502956" />
-    <state width="1323" height="96" key="GridCell.Tab.0.bottom" timestamp="1597178096193">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597222737599" />
+    <state width="1323" height="194" key="GridCell.Tab.0.bottom" timestamp="1597222572251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="96" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597178096193" />
-    <state width="1323" height="96" key="GridCell.Tab.0.center" timestamp="1597178096192">
+    <state width="1323" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597222572251" />
+    <state width="1323" height="194" key="GridCell.Tab.0.center" timestamp="1597222572220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="96" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597178096192" />
-    <state width="1323" height="96" key="GridCell.Tab.0.left" timestamp="1597178096192">
+    <state width="1323" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597222572220" />
+    <state width="1323" height="194" key="GridCell.Tab.0.left" timestamp="1597222572220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="96" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597178096192" />
-    <state width="1323" height="96" key="GridCell.Tab.0.right" timestamp="1597178096193">
+    <state width="1323" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597222572220" />
+    <state width="1323" height="194" key="GridCell.Tab.0.right" timestamp="1597222572251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="96" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597178096193" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1597171943782">
+    <state width="1323" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597222572251" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1597221598547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597171943782" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597221598547" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1597221598547">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597221598547" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1597221598547">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597221598547" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1597221598547">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597221598547" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1597215142828">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597215142828" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1597222836355">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597222836355" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1597171748668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597171748668" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597171766323">
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597179103266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597171766323" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597179103266" />
+    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1597220774065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1597220774065" />
   </component>
 </project>

@@ -2,6 +2,7 @@
 <?php
 //настройки системы - правила составления маршрутов
 return array(
-    'shelf' => 'list',
-    'book' => 'read'
+    'home/[0-9]+' => 'home/open',
+    'home' => 'home/list',
+    'book' => 'book/read'
 );

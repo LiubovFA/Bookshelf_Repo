@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="Apache XAMPP" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="Apache">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Apache XAMPP">
         <serverdata>
           <mappings>
